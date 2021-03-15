@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:gravity="clip_vertical|start">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal" android:gravity="clip_vertical|start">
+            <TextView
+                    android:text="@string/Titulo"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/nome" android:autofillHints=""/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal" android:gravity="clip_vertical|start">
+            <TextView
+                    android:text="@string/Autor"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" android:id="@+id/autorTextView"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/autor" android:autofillHints=""/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="clip_vertical|start">
+            <TextView
+                    android:text="@string/Ano"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" android:id="@+id/anoTextView"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/ano" android:autofillHints=""/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="clip_vertical|start">
+            <TextView
+                    android:text="@string/Nota"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"/>
+            <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:id="@+id/notaButton"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="bottom">
+            <Button
+                    android:text="@string/salvar"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content" android:id="@+id/saveButton"/>
+            <Button
+                    android:text="@string/cancelar"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content" android:id="@+id/cancelButton" android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

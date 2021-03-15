@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="livro.sqlite" uuid="1d65dfd8-af41-49ad-a4e7-5abb90b3ddc6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\gilma\Documents\AndroidStudio\DeviceExplorer\samsung-sm_a015m-R9XN807NVJD\data\data\com.example.minhaprova\databases\livro.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>
